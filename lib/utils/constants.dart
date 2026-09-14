@@ -1,7 +1,7 @@
-⅘import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 
 class AppColors {
-  static const Color primary = Color(0xFFE53935); // Deep red - Mahakal theme
+  static const Color primary = Color(0xFFE53935);
   static const Color primaryDark = Color(0xFFB71C1C);
   static const Color accent = Color(0xFFFF6F00);
   static const Color background = Color(0xFFF5F5F5);
@@ -16,12 +16,13 @@ class AppColors {
 class AppStrings {
   static const String appName = 'Mahakal Mobile Hub';
   static const String tagline = 'Your Trusted Mobile Partner in Indore';
-  static const String whatsappNumber = '919752221990'; // CHANGE THIS
-  static const String adminPassword = 'Nikesh@12345'; // CHANGE THIS
+
+  // ========== YAHAN APNA WHATSAPP NUMBER DALO ==========
+  static const String whatsappNumber = '919876543210'; // <-- apna number yahan
+  // ====================================================
 }
 
 class DeliveryRules {
-  /// Indore pin codes (sample - expand as needed)
   static const List<String> indorePinCodes = [
     '452001', '452002', '452003', '452004', '452005',
     '452006', '452007', '452008', '452009', '452010',
@@ -35,8 +36,8 @@ class DeliveryRules {
 
   static String getDeliveryMessage(String pinCode) {
     if (isIndore(pinCode)) {
-      return '✅ Indore: 2-Hour Fast Delivery + Cash on Delivery available';
+      return 'Indore: 2-Hour Fast Delivery + Cash on Delivery available';
     }
-    return '📦 All India Shipping available • COD not available (Prepaid only)';
+    return 'All India Shipping available • COD not available (Prepaid only)';
   }
 }

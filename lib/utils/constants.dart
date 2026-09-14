@@ -18,7 +18,7 @@ class AppStrings {
   static const String tagline = 'Your Trusted Mobile Partner in Indore';
 
   // ========== YAHAN APNA WHATSAPP NUMBER DALO ==========
-  static const String whatsappNumber = '919876543210'; // <-- apna number yahan
+  static const String whatsappNumber = '919752221990'; // <-- apna number yahan
   // ====================================================
 }
 

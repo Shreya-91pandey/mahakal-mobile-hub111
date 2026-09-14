@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+⅘import 'package:flutter/material.dart';
 
 class AppColors {
   static const Color primary = Color(0xFFE53935); // Deep red - Mahakal theme
@@ -16,8 +16,8 @@ class AppColors {
 class AppStrings {
   static const String appName = 'Mahakal Mobile Hub';
   static const String tagline = 'Your Trusted Mobile Partner in Indore';
-  static const String whatsappNumber = '919876543210'; // CHANGE THIS
-  static const String adminPassword = 'mahakal@123'; // CHANGE THIS
+  static const String whatsappNumber = '919752221990'; // CHANGE THIS
+  static const String adminPassword = 'Nikesh@12345'; // CHANGE THIS
 }
 
 class DeliveryRules {
